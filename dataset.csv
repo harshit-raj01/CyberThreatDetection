@@ -1,0 +1,11 @@
+duration,src_bytes,dst_bytes,label
+10,100,50,normal
+20,200,70,normal
+30,300,80,normal
+1000,5000,6000,attack
+1200,7000,8000,attack
+1500,9000,10000,attack
+15,120,60,normal
+18,150,65,normal
+1300,7500,8500,attack
+1400,8000,9000,attack
