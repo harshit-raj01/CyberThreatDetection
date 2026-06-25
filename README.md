@@ -1,210 +1,50 @@
-\# 🛡️ Cyber Threat Detection System
+# 🛡️ Cyber Threat Detection System
 
+An AI-powered Cyber Threat Detection Dashboard built using Python and Streamlit.  
+It analyzes network activity, detects suspicious behavior, and visualizes threat levels in real-time.
 
+---
 
-A Machine Learning-based Cyber Threat Detection System built using Python, Scikit-Learn, and Streamlit.
+## 🚀 Live Demo
+👉 https://cyberthreatdetection-zcavmbrappfhiquu7j4h9jc.streamlit.app/
 
+---
 
+## 📌 Features
 
-\## 🚀 Live Demo
+- 🔍 Real-time threat monitoring dashboard
+- 📊 Interactive graphs and analytics
+- 🚨 Threat severity indicator (Low / Medium / High)
+- 📈 Traffic trend visualization
+- ⚡ Auto-updating dashboard
+- 🧠 Basic AI/anomaly detection logic
 
+---
 
+## 🛠️ Tech Stack
 
-Coming Soon
+- Python 🐍  
+- Streamlit 🎈  
+- Pandas 📊  
+- NumPy 🔢  
+- Matplotlib 📉  
 
+---
 
+## 📂 Project Structure
 
-\## 📌 Features
-
-
-
-\- Detects Normal and Attack Traffic
-
-\- Machine Learning Model using Random Forest
-
-\- Interactive Streamlit Dashboard
-
-\- Threat Severity Meter
-
-\- Real-Time Traffic Trend Graph
-
-\- Attack vs Normal Traffic Visualization
-
-\- User-Friendly Interface
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\- Python
-
-\- Pandas
-
-\- Scikit-Learn
-
-\- Streamlit
-
-\- Plotly
-
-\- Joblib
-
-
-
-\## 📂 Project Structure
-
-
-
-```text
-
-CyberThreatDetection
-
-│
-
+CyberThreatDetection/
 ├── app.py
-
-├── train.py
-
-├── dataset.csv
-
-├── model.pkl
-
 ├── requirements.txt
-
 ├── README.md
+└── other files
 
-```
+---
 
-
-
-\## ⚙️ Installation
-
-
-
-Clone the repository:
-
-
+## ⚙️ Installation (Run Locally)
 
 ```bash
-
-git clone https://github.com/your-username/CyberThreatDetection.git
-
-```
-
-
-
-Move into project folder:
-
-
-
-```bash
-
+git clone https://github.com/harshit-raj01/CyberThreatDetection.git
 cd CyberThreatDetection
-
-```
-
-
-
-Install dependencies:
-
-
-
-```bash
-
 pip install -r requirements.txt
-
-```
-
-
-
-Run the application:
-
-
-
-```bash
-
 streamlit run app.py
-
-```
-
-
-
-\## 📊 Dashboard Features
-
-
-
-\- Network Traffic Monitoring
-
-\- Attack Detection
-
-\- Threat Severity Analysis
-
-\- Traffic Trend Visualization
-
-\- Traffic Distribution Charts
-
-
-
-\## 🎯 Sample Prediction
-
-
-
-Input:
-
-
-
-| Duration | Source Bytes | Destination Bytes |
-
-|-----------|------------|------------------|
-
-| 1400 | 8000 | 9000 |
-
-
-
-Output:
-
-
-
-```text
-
-🔴 Attack Traffic Detected
-
-```
-
-
-
-\## 📷 Screenshots
-
-
-
-Add screenshots here after running the project.
-
-
-
-\## 👨‍💻 Author
-
-
-
-Harshit Raj
-
-
-
-\## ⭐ Future Enhancements
-
-
-
-\- Real-time Network Monitoring
-
-\- Intrusion Detection
-
-\- Attack Classification
-
-\- Threat Intelligence Integration
-
-\- PDF Report Generation
-
-\- Live Alert System
-
-
-
